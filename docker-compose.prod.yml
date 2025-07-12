@@ -1,0 +1,4 @@
+services:
+  kitsu:
+    ports:
+      - "${PORT:-80}:80"
